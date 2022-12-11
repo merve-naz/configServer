@@ -15,8 +15,8 @@ spring:
     data:
         mongodb:
             database: inventory
-            host: localhost
-            port: 27017
+            uri: mongodb://localhost:27017
+          
     kafka:
         consumer:
             auto-offset-reset: earliest
