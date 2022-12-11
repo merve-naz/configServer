@@ -15,7 +15,7 @@ spring:
     data:
         mongodb:
             database: inventory
-            host: localhost
+            host: mongodb://localhost
             port: 27017
     kafka:
         consumer:
